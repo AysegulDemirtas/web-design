@@ -1,0 +1,124 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+body{
+	background:linear-gradient(red,yellow);
+	
+}
+/*---------------Sayfatasarımın kodlarının başlangıcı-------------*/
+.anaYapi{
+	width:960px;
+	height:1000px;
+	background:#999;
+	border:#000 solid 2px;
+	margin:0px auto;/*Ust ve alt boşluklar sıfır olacak sağ ve sol boşluklar tarayıcı pencerelerinin genişliklerine göre otamatik olarak eşit şekilde ayarlanacak.*/
+	padding:10px;
+}
+/*---------------------------Ust Bolüm Alanı------------------------*/
+.banner{
+	height:150px;
+	background:#CCC;
+}
+
+.logo{
+	width:200px;
+	height:150px;
+	background:#eee;
+	float:left;
+}
+
+.bannerSag{
+	width:750px;
+	height:150px;
+	background:#eee;
+	float:left;
+	margin-left:10px;
+}
+
+/*---------------------------Ust Bolüm Alanı Bitiş------------------------*/	
+	
+	
+
+/*-----------------Menu Alanının Başlangıcı--------------------------*/
+.menu{
+	height:40px;
+	background:#CCC;
+	margin:10px 0;/*Ust alt 10 pixel sağ ve sol 0 pixel*/
+}
+
+.menu ul{
+	margin:0px;
+	padding:0px;
+	list-style-type:none;/*Listenin başındaki madde imlerini kaldırır.*/
+}
+
+.menu ul li a{
+	text-decoration:none;/*Yazıların altındaki çizgiyi kaldırır.*/
+	font-family:Arial, Helvetica, sans-serif;
+	background:#9F6;
+	display:block;/*Block objesi yaparak satır boyunca genişletip genişlik ve yükseklik değeri uygulayacağız*/
+	width:20%;
+	height:40px;
+	float:left;
+	text-align:center;
+	line-height:40px;/*Normalde satır arası boşluğu ayarlamak için kullanılan bıu komut, CSS'de dikey ayarlama olmadığı için menu alanını dikeyde ortalamak için kullanılır.*/
+	
+}
+
+.menu ul li a:hover{/*Menu alanının imleç ile üzerine gelindiğinde değişikliklerini ayarlamaya yarar*/
+	background:#9C3;
+	
+}
+
+.menuArkaplan{
+	background:#900 !important;
+}
+
+/*-----------------Menu Alanının Bitişi-------------------------------*/
+
+/*-----------------İçerik Alanının Başlangıcı--------------------------*/
+.icerik{
+	height:700px;
+	background:#CCC;
+}
+
+.icerikSol{
+	height:700px;
+	width:200px;
+	background:#9F3;
+	float:left;
+}
+
+.icerikOrta{
+	height:700px;
+	width:540px;
+	margin:0px 10px;
+	background:#9F3;
+	float:left;/*Web tasarımında alanları yanyana getirebilmek için kaydırma uygular*/
+}
+
+.icerikSag{
+	width:200px;
+	height:700px;
+	background:#9F3;
+	float:left;
+}
+	
+	
+
+
+.icerikSag h1{
+	font-family:Verdana, Geneva, sans-serif;
+	color:#900;
+	border-bottom:#900 solid 1px;
+	margin-left:10px;
+	margin-top:10px;
+}
+/*-----------------İçerik Alanının Bitişi---------------------------------*/
+.altBilgi{
+	height:80px;
+	background:#CCC;
+	margin-top:10px;/*Üst dış boşluk*/
+}
+

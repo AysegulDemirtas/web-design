@@ -1,0 +1,208 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	background-repeat: repeat;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 100%;
+	color: #f00;
+	background-image:url(arkaplan.jpg);
+}
+
+img{
+	max-width:100%;
+	height:auto;
+}
+a{
+	text-decoration:none;
+}
+
+a:link, a:visited{
+	color:#CF5C3F;
+}
+
+a:hover, a:active{
+	background:#CF5C3F;
+	color:#fff;
+	
+}
+.sayfa{
+	margin:0 auto;
+	width:100%;
+	max-width:960px;
+}
+
+h1,h2 {
+	margin: 0px;
+}
+
+
+
+.menu{
+	height:40px;
+	margin-bottom:10px;
+	background:#FC3;
+	}	
+	
+.menu ul{
+	list-style-type:none;
+	margin:0px;
+	padding:0px;
+
+	}
+
+
+.menu ul li a{
+	background-color: #666;
+	text-align: center;
+	display: block;
+	float: left;
+	height: 40px;
+	width: 20%;
+	line-height: 40px;
+	color:#fff;
+	}	
+
+.menu ul li a:hover{
+	background:#999;
+}
+	
+.solicerik{
+	width:68%;
+	float:left;
+	margin-right:2%;
+}
+
+.solust{
+	border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	line-height:25px;
+	width:96%;
+	margin:10 auto 0 auto;
+	background:#FFF;
+	padding:2%;
+}
+
+.solalt{
+	border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	line-height:25px;
+	width:96%;
+	margin:10px auto 0 auto;
+	background:#FFF;
+	padding:2%;
+	
+}
+
+.sagicerik{
+	width:30%;
+	float:right;
+}
+
+.italik{
+	color:999;
+	font-style:italic;
+	font-size:90%;
+}
+.sagustkenar{
+	border-radius:5px;	
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	background:#FFF;
+	line-height:25px;
+	padding:2%;
+}
+
+.sagortakenar{
+	border-radius:5px;	
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	background:#FFF;
+	line-height:25px;
+	margin-bottom:10px;
+	margin-top:10px;
+}
+.sagaltkenar{
+	border-radius:5px;	
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	background:#FFF;
+	line-height:25px;
+}
+
+.altbilgi{
+	height:40px;
+	border-radius:5px;	
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	background:#666;
+	color:#f00;
+	
+	clear:both;
+	text-align:center;
+	line-height:40px;
+	}
+
+	
+	/*................................................................................*/
+@media only screen and (max-width:768px) {
+	
+	
+body{
+	color:#00f;
+	font-size:85%;
+}
+
+.menu{
+	width:100%;
+	height:auto;
+	}	
+
+.menu ul li a{
+	float: left;
+	width:33%;
+
+	text-align:center;
+	
+	
+	}	
+.solicerik{
+	width:49%;
+	float:left;
+	margin:0 1% 0 0;
+	
+	
+	
+}
+.sagicerik{
+	width:49%;
+	float:left;
+	margin:0 0 0 1%;
+
+}
+
+
+	}
+ @media only screen and (max-width:480px) {
+
+.solicerik,.solust,.solalt,.sagicerik, .sagustkenar, .sagortakenar, .sagaltkenar {
+	width:100%;
+	float:none;
+}
+
+.menu ul li a{
+	float: none;
+	width:99%;
+	padding-left:1%;
+	margin-bottom:2px;
+	}	
+		 
+		 
+		 
+		 
+		 
+		 
+		 }
+	
